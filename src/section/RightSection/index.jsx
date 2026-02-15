@@ -1,16 +1,48 @@
+/*import About from "../About"
+import Experience from "../Experience"
 
 const RightSection = () => {
   return (
-    <div>
-        <div>About</div>
-        <div className='mb-80'>Experience</div>
-        <div className='mb-80'>Experience</div>
-        <div className='mb-80'>Experience</div>
-        <div className='mb-80'>Experience</div>
-        <div className='mb-80'>Experience</div>
-        <div className='mb-80'>Experience</div>
+    <div className="grid gap-40 px-5">
+      <About />
+      <Experience />
+      <div>Experience</div>
+      <div>Experience</div>
+      <div>Experience</div>
+      <div>Experience</div>
+      <div>Experience</div>
+      <div>Experience</div>
     </div>
   )
 }
 
-export default RightSection
+export default RightSection*/
+import ContentContainer from "../../components/ContentContainer";
+import About from "../About";
+import {data as experienceData} from "../../contents/experience";
+import {data as projectData} from "../../contents/project";
+import Footer from "../Footer";
+
+const RightSection = () => {
+    return (
+            <div className="grid gap-y-40 px-5">
+                <About />
+                <ContentContainer
+                    title="Experience"
+                    data={experienceData}
+                />
+                <ContentContainer
+                    title="Project"
+                    data={projectData}
+                />
+                <ContentContainer
+                    title="Article"
+                    data={projectData}
+                />
+                <Footer />
+            </div>
+        
+    )
+}
+
+export default RightSection;
