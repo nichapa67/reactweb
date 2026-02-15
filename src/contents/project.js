@@ -6,11 +6,11 @@ export const data = [
     {
         date: "2020-2021",
         title: "Fullstackkk · Sport Analysis System",
-        link: "https://suriyapi.github.io/vite/",
+        link: "https://nichapa67.github.io/reactweb/",
         materials: [
-            { type: faGithub, link: "https://suriyapi.github.io/vite/" },
-            { type: faYoutube, link: "https://suriyapi.github.io/vite/" },
-            { type: faMedium, link: "https://suriyapi.github.io/vite/" },
+            { type: faGithub, link: "https://nichapa67.github.io/reactweb/" },
+            { type: faYoutube, link: "https://nichapa67.github.io/reactweb/" },
+            { type: faMedium, link: "https://nichapa67.github.io/reactweb/" },
         ],
         descriptions: [
             "Designing and developing a sports data analysis system that scrapes data from various sports websites, processes it, and presents different profit-making possibilities in real-time for customers.",
@@ -25,9 +25,9 @@ export const data = [
     {
         date: "2019-2020",
         title: "Fashion Ecommerce",
-        link: "https://suriyapi.github.io/vite/",
+        link: "https://nichapa67.github.io/reactweb/",
         materials: [
-            { type: faGithub, link: "https://suriyapi.github.io/vite/" },
+            { type: faGithub, link: "https://nichapa67.github.io/reactweb/" },
         ],
         descriptions: [
             "Designing and developing a sports data analysis system that scrapes data from various sports websites, processes it, and presents different profit-making possibilities in real-time for customers.",
